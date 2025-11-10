@@ -11,7 +11,12 @@ namespace NameSorter.Core.SortHelper
     {
         public IEnumerable<Name> Sort(IEnumerable<Name> names)
         {
-            return names;
+            if (names is null) throw new ArgumentNullException(nameof(names));
+
+            return names
+                .OrderBy(n => n.LastName)
+                .ThenBy(n => n.GivenNames)
+                .ToList();
         }
     }
 }
