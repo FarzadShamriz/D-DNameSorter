@@ -11,4 +11,14 @@
     <ProjectReference Include="..\NameSorter.Core\NameSorter.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Sample\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Sample\unsorted-names-list.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace NameSorter.Core.SortHelper
 {
-    public class NameSorter : INameSorter
+    public class NamesSorter : INamesSorter
     {
         public IEnumerable<Name> Sort(IEnumerable<Name> names)
         {
-            throw new NotImplementedException();
+            return names;
         }
     }
 }

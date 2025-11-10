@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "NameSorter.Cli": {
+      "commandName": "Project",
+      "commandLineArgs": "./Sample/unsorted-names-list.txt"
+    }
+  }
+}

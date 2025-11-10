@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NameSorter.Core.SortHelper
 {
-    public interface INameSorter
+    public interface INamesSorter
     {
         /// <summary>
         /// 
